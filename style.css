@@ -1,0 +1,55 @@
+
+body
+{
+    background-image: url('img-bg.jpg');
+  
+    background-size: cover;
+    background-position: top center;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.background-wrapper
+{
+    width: 750px;
+    margin: 10px auto;
+}
+div.background-wrapper h1
+{
+    color: #fff;
+    margin-bottom: 1.5%;
+}
+
+div.head p { color: #fff;}
+
+.box-1 ,
+.box-2 ,
+.box-3 ,
+.box-4 ,
+.box-5
+{
+    width: 750px;
+    background-color: bisque;
+    margin-top: 4%;
+    padding: 2%;
+    border: 2px dashed sienna;
+}
+
+dd { color: rgb(1, 124, 124); }
+
+div.box-3 dd
+{    
+    line-height: .9;
+    color: rgb(1, 124, 124);
+}
+div.box-3 dl
+{
+    margin-bottom: 5%;
+    margin-left: 5%;
+    line-height: .9;
+}
+div.shorthand h2,
+div.shorthand p
+{
+    color: #fff;
+}
